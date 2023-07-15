@@ -1,0 +1,75 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .header{
+    background-color:  #F8F8F8;
+    display: flex;
+  }
+  .container-header{
+    display: flex;
+    width: 1440px;
+    margin-top: 104px;
+    margin-left: 133px;
+    margin-right: 133px;
+    margin-bottom: 168px; 
+  }
+  .text-title{
+    font-family: League Spartan;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 45px;
+    margin-bottom: 53px;
+  }
+  .title-header{
+    font-family: League Spartan;
+    font-size: 250px;
+    font-weight: 300;
+    line-height: 230px;
+    margin-bottom: 43px;
+  }
+  .text-header{
+    font-family: League Spartan;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 50px;
+    width: 575px;
+    height: 142px;
+    margin-bottom: 61px;
+  }
+  .container-price{
+    display: flex;
+  }
+.buy-link{
+    display: block;
+    width: 278px;
+    height: 82px;
+    background-color: #161515;
+    color: #fff;
+    font-family: League Spartan;
+    font-size: 32px;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 82px;
+    text-align: center;
+
+}
