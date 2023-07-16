@@ -16,11 +16,7 @@ html {
   ol, ul {
     list-style: none;
   }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+ 
   .header{
     background-color:  #F8F8F8;
     display: flex;
@@ -71,5 +67,69 @@ html {
     text-decoration: none;
     line-height: 82px;
     text-align: center;
-
+}
+.price{
+  width: 143px;
+  height: 82px;
+  background-color: #fff;
+  color: #272727;
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 300;
+  text-decoration: none;
+  line-height: 82px;
+  text-align: center;
+}
+.clock-position{
+  display: block;
+  width: 772px;
+  margin-top: -136px;
+  margin-left: 10px;
+}
+.popular{
+  font-style: 24px;
+  font-family: League Spartan;
+  font-weight: 300;
+  line-height: 45px;
+  text-align: center;
+  margin-top: 43px;
+  font-weight: 300;
+}
+.titles{
+  font-family: League Spartan;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 81px;
+  text-align: center;
+  margin-bottom: 84px;
+}
+.menu{
+  margin: 0 auto;
+  width: 417px;
+  margin-bottom: 85px;
+}
+.items-img{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 417px;
+  height: 630px;
+  background-color: #F8F8F8;
+  margin-bottom: 67px;
+}
+.title-clock{
+  font-size: 32px;
+  font-family: League Spartan;
+  margin-bottom: 17px;
+  text-align: center;
+  font-weight: 400;
+}
+.text-clock{
+  font-family: League Spartan;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 50px;
+  width: 500px;
+  height: 194px;
 }
